@@ -20,6 +20,8 @@
 
 *webpack
 
+*Jest
+
 *npm
 
 ## Installation
