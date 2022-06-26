@@ -28,6 +28,14 @@ export default class Human {
     return this.age;
   }
 
+  earthLeft() {
+    if (this.expectantAge >= this.age) {
+      return (this.expectantAge - this.age);
+    } else {
+      return (this.age - this.expectantAge);
+    }
+  }
+  
   mercuryLeft() {
     if (this.expectantAge >= this.age) {
       return ((this.expectantAge - this.age) * .24);
