@@ -29,5 +29,9 @@ describe('Human', () => {
   test('should return age on planet Mars', () => {
     expect(human.ageMars()).toEqual(73.32);
   });
+
+  test('should return age on planet Jupiter', () => {
+    expect(human.ageJupiter()).toEqual(462.54);
+  });
   
 })
