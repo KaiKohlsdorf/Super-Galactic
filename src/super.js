@@ -59,4 +59,12 @@ export default class Human {
       return ((this.age - this.expectantAge) * 1.88);
     }
   }
+
+  jupiterLeft() {
+    if (this.expectantAge >= this.age) {
+      return ((this.expectantAge - this.age) * 11.86);
+    } else {
+      return ((this.age - this.expectantAge) * 11.86);
+    }
+  }
 }
