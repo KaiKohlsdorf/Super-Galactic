@@ -4,10 +4,6 @@ export default class Human {
   this.expectantAge = expectantAge; 
   }
 
-  checkType() {
-    return "I can't answer that yet!" 
-  }
-
   ageMercury() {
     this.age = (this.age * .24);
     return this.age;
