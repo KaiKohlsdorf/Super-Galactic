@@ -17,4 +17,9 @@ export default class Human {
     this.age = (this.age * .62);
     return this.age;
   }
+
+  ageMars() {
+    this.age = (this.age * 1.88);
+    return this.age;
+  }
 }
