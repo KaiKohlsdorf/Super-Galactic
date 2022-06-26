@@ -34,6 +34,10 @@ describe('Human', () => {
     expect(human.ageJupiter()).toEqual(462.53999999999996);
   });
 
+  test('should return number of years left to live on Earth', () => {
+    expect(human.earthLeft()).toEqual(40);
+  })
+
   test('should return number of years left to live on Mercury', () => {
     expect(human.mercuryLeft()).toEqual(9.6);
   });
