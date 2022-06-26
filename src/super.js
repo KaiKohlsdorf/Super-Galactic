@@ -1,11 +1,16 @@
-export default function Human(age, expectantAge) {
+export default class Human {
+  constructor(age, expectantAge) {
   this.age = age;
-  this.expectantAge = expectantAge;
+  this.expectantAge = expectantAge; 
+  }
+
+  checkType() {
+    return "I can't answer that yet!" 
+  }
+
+  ageMercury() {
+    this.age = (this.age * .24);
+    return this.age;
+  }
+
 }
-
-Human.prototype.checkType = function() {
-  return "I can't answer that yet!"
-}
-
-
-

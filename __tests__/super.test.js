@@ -2,7 +2,7 @@ import Human from '../src/super.js';
 
 describe('Human', () => {
 
-  let reusableHuman;
+  let human;
   
   beforeEach(() => {
     human = new Human(39, 79);
@@ -19,8 +19,8 @@ describe('Human', () => {
   })
 
   test('should return age on planet Mercury', () => {
-    expect(human.ageMercury()).toEqual(9);
-  })
+    expect(human.ageMercury()).toEqual(9.36);
+  });
 
     
   
