@@ -31,7 +31,7 @@ describe('Human', () => {
   });
 
   test('should return age on planet Jupiter', () => {
-    expect(human.ageJupiter()).toEqual(462.54);
+    expect(human.ageJupiter()).toEqual(462.53999999999996);
   });
   
 })

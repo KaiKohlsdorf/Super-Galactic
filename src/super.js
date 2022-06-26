@@ -22,4 +22,9 @@ export default class Human {
     this.age = (this.age * 1.88);
     return this.age;
   }
+
+  ageJupiter() {
+    this.age = (this.age * 11.86);
+    return this.age;
+  }
 }
