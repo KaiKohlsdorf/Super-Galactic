@@ -26,5 +26,8 @@ describe('Human', () => {
     expect(human.ageVenus()).toEqual(24.18);
   });
     
+  test('should return age on planet Mars', () => {
+    expect(human.ageMars()).toEqual(73.32);
+  });
   
 })
