@@ -46,4 +46,9 @@ describe('Human', () => {
   () => {
     expect(human.venusLeft()).toEqual(24.8);
   });
+
+  test('should return number of years left to live on Mars',
+  () => {
+    expect(human.marsLeft()).toEqual(75.2);
+  });
 })
