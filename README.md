@@ -28,13 +28,17 @@
 
 *Clone this repository to your desktop.
 
-*Navigate to the top level of the directory.
+*$ npm install --save -dev
 
-*Open Super-Galactic/src/index.html in your browser.
+*$ npm run build
+
+*$ npm run start
 
 ## Known Bugs: 
 
-* N/A
+* No user logic
+
+* Button doesn't work
 
 ## License
 [MIT][<a href=https://github.com/KaiKohlsdorf/Super-Galactic/blob/main/LICENSE>LICENSE</a>]
