@@ -1,4 +1,4 @@
-export default function Human (age, expectantAge) {
+export default function Human(age, expectantAge) {
   this.age = age;
   this.expectantAge = expectantAge;
 }

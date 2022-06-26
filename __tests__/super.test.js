@@ -6,4 +6,16 @@ describe('Human', () => {
     expect(human.age).toEqual(39);
     expect(human.expectantAge).toEqual(79);
   })
+
+  describe('Human', () => {
+    let reusableHuman;
+
+    beforeEach(() => {
+      reusableHuman = new Human(39, 79);
+    })
+
+    test('should show how beforeEach() works', () => {
+      console.log(reusableHuman);
+    });
+  });
 })
