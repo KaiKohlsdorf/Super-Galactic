@@ -42,4 +42,8 @@ describe('Human', () => {
     expect(human.mercuryLeft()).toEqual(9.6);
   });
   
+  test('should return number of years left to live on Venus',
+  () => {
+    expect(human.venusLeft()).toEqual(24.8);
+  });
 })
