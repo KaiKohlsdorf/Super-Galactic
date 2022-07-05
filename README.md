@@ -28,6 +28,8 @@
 
 *Clone this repository to your desktop.
 
+*cd into the project folder
+
 *$ npm install --save -dev
 
 *$ npm run build

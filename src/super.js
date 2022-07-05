@@ -5,23 +5,19 @@ export default class Human {
   }
 
   ageMercury() {
-    this.age = (this.age * .24);
-    return this.age;
+    return (this.age / .24);
   }
 
   ageVenus() {
-    this.age = (this.age * .62);
-    return this.age;
+    return (this.age / .62);
   }
 
   ageMars() {
-    this.age = (this.age * 1.88);
-    return this.age;
+    return (this.age / 1.88);
   }
 
   ageJupiter() {
-    this.age = (this.age * 11.86);
-    return this.age;
+    return (this.age / 11.86);
   }
 
   earthLeft() {
@@ -34,33 +30,34 @@ export default class Human {
 
   mercuryLeft() {
     if (this.expectantAge >= this.age) {
-      return ((this.expectantAge - this.age) * .24);
+      return ((this.expectantAge - this.age) / .24);
     } else {
-      return ((this.age - this.expectantAge) * .24);
+      return ((this.age - this.expectantAge) / .24);
     }
   }
 
   venusLeft() {
     if (this.expectantAge >= this.age) {
-      return ((this.expectantAge - this.age) * .62);
+      return ((this.expectantAge - this.age) / .62);
     } else {
-      return ((this.age - this.expectantAge) * .24);
+      return ((this.age - this.expectantAge) / .62);
     }
   }
 
   marsLeft() {
     if (this.expectantAge >= this.age) {
-      return ((this.expectantAge - this.age) * 1.88);
+      return ((this.expectantAge - this.age) / 1.88);
     } else {
-      return ((this.age - this.expectantAge) * 1.88);
+      return ((this.age - this.expectantAge) / 1.88);
     }
   }
 
   jupiterLeft() {
     if (this.expectantAge >= this.age) {
-      return ((this.expectantAge - this.age) * 11.86);
+      return ((this.expectantAge - this.age) / 11.86);
     } else {
-      return ((this.age - this.expectantAge) * 11.86);
+      return ((this.age - this.expectantAge) / 11.86);
     }
   }
 }
+

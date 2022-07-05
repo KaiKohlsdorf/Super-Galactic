@@ -4,16 +4,24 @@
   <title>Super Galactic Age Calculator</title>
 </head>
 <body>
-  <h2>Enter your age to see how old you would be on these other planets!</h2>
-  <form id="planet-form">
-    <label for="age">Enter your earth age:</label>
-    <input id="age" type="number">
-    <ul id="response"></ul>
-
-  <form id="human">
-    <h4>Are you a human? Type 1 for yes and 2 for no.</h4>
-    <button type="submit">Submit</button>
-  </form>
-
+  <div class="container">
+    <h2>Enter your age to see how old you would be on these other planets!</h2>
+    <form id="planet-form">
+      <label for="userAge">Enter your Earth age:</label>
+      <input id="userAge" type="number">
+      <button type="submit" class="btn btn-info">Submit</button>
+    </form>
+    <div class="results">
+      <p>Mercury Years: <span id="mercuryYears"></span></p>
+      <p>Venus Years: <span id="venusYears"></span></p>
+      <p>Mars Years: <span id="marsYears"></span></p>
+      <p>Jupiter Years: <span id="jupiterYears"></span></p>
+    </div>
+    <div class="human">
+      <h4>Here's your life expectancy based on the average Earth expectancy of 73 Earth years. If you're not yet 73 on Earth, the number below tells you how long you've got left (sorry?), and if you've past 73 already (good job?) how many years you've surpassed the expectation:</h4>
+      <span id="notYet"></span>
+      <span id="alreadySurpassed"></span>
+    </div>
+  </div>
 </body>
 </html>
